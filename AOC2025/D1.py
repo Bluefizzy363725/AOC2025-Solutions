@@ -12,7 +12,7 @@ for i in x:
             while start > 99:
                 start -= 100
                 if start != 0:
-                    count += 1
+                    count2 += 1
         case 'L':
             if start == 0:
                 start += 100 - int(i[1:])
@@ -20,10 +20,10 @@ for i in x:
                 start -= int(i[1:])
             while start < 0:
                 start += 100
-                count += 1
+                count2 += 1
     if start == 0:
         count += 1
         count2 += 1
 
-print(count2)
 print(count)
+print(count2)
